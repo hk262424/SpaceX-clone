@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+
+    z-index: -1;
+    /* animation: fade-out-bg 0.5s ease-in; */
+    /* border: 2px solid red; */
+    background-size: 100% 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/starship-bg.jpg);
+}
+
+
+.first-container {
+    /* border: 2PX solid RED ; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Dragon-bg.webp'); */
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-heading {
+    /* border: 1px solid grey; */
+    text-align: center;
+    color: whitesmoke;
+    height: 30vh;
+}
+
+.mid-heading>h1 {
+    font-size: 5rem;
+    animation: down-to-up 1s ease-in-out;
+}
+
+
+@keyframes down-to-up {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    25% {
+        opacity: 0;
+        transform: scaleX(20px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.mid-heading>h4 {
+    font-size: 1.2rem;
+    word-spacing: 5PX;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1REM;
+    word-spacing: 3REM;
+    animation: down-to-up-p 1.5s ease-in-out 0s;
+
+}
+
+@keyframes down-to-up-p {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.top-left-content>h2{
+    /* border: 2px solid red;
+    z-index: 1; */
+    font-family: var(--font-fallback);
+    font-size: 2.5rem;
+
+}
+
+.top-left-content>p{
+    font: var(--font-fallback);
+    padding: 15px 0px;
+    margin: 15px 0px;
+    font-size: 1.5rem;
+}
+
+.top-left-content>.btn{
+    margin: 10px 0px;
+    /* width: 150px; */
+    padding: 15px 50px;
+}
+
+.mission-earth-orbit {
+    z-index: -1;
+    background: url('../images/earth_orbit.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+#earth-orbit{
+    display: block;
+    float: right;
+    margin: 0px 15rem;
+}
+
+
+.mission-space-station {
+
+    background: url('../images/space-station.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.mission-moon {
+
+    background: url('../images/moon.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#mission-moon{
+    display: block;
+    float: right;
+    margin: 0px 5rem;
+}
+
+.mission-mars {
+
+    background: url('../images/mission-mars.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.information {
+    /* border: 2px solid   red; */
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hr-div {
+    border-right: 2px solid grey;
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top: 10%;
+}
+
+.cn {
+    /* border: 2px solid red ; */
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px auto;
+
+}
+
+.cn>p {
+    color: grey;
+
+}
+
+.cn>a {
+    /* border: 1px solid rebeccapurple; */
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.cn>a:hover {
+    color: rgb(192, 180, 180);
+}
+
+.btn-div {
+    /* border: 2PX SOLID red; */
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+#footer{
+    background: black;
+}
+#footer>span>a{
+    /* z-index: ; */
+    color: white;
+    transition: all 1s;
+}
+
+#footer>span>a:hover{
+    color: rgb(182, 182, 182);
+}
+

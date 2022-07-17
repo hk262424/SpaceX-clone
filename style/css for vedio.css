@@ -1,0 +1,78 @@
+/* ########################### 
+css for vedio  falcon -9
+###########################  */
+/* .vedio {
+    border: 2px solid red;
+    /* mawidth: 100; 
+    max-width: 100%;
+    /* height: 100vh; 
+}
+ #banner-vedio{
+      position: absolute; 
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     height: 100vh;
+     min-width: 100%;
+     
+     min-height: 100%; 
+     z-index: -1;
+     -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+     -o-transition: all 1s;
+     transition: all 1s;
+ }*/
+
+button {
+    background-color: #666;
+    border: medium none;
+    /* border: 3px solid red; */
+    width: 200px;
+    color: #fff;
+    display: block;
+    font: 18px;
+    left: 0;
+    margin: 0 auto;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.active {
+    cursor: pointer;
+    background-color: #0077a2;
+}
+
+.vedio-section {
+    margin: auto;
+    border: 2px solid red;
+    height: 100vh;
+    position: relative;
+
+}
+
+#bg-vedio {
+    /* border: 2px solid red;
+     position: absolute; 
+    right: 0;
+    bottom: 0; 
+    z-index: -1; */
+    margin: 0px;
+}
+
+/* @media (min-aspect-ratio: 12/4){
+    #bg-vedio{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-aspect-ratio: 16/9){
+    #bg-vedio{
+        width: auto;
+        height: 100%;
+    }
+} */

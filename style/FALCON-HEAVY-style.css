@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#top-navigation-menu {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.first-container {
+    /* border: 2px solid red; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/falcon-heavy.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-heading {
+    color: white;
+    font-weight: bolder;
+}
+
+.mid-heading>h1 {
+    text-align: center;
+    font-size: 4rem;
+    animation: down-to-up 1.5s ease-in-out 0s;
+
+}
+
+
+@keyframes down-to-up {
+    from {
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: scaleX(20px);
+    }
+}
+
+.mid-heading>h4 {
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 4px;
+    animation: down-to-up-p 1.5s ease-in-out 0s;
+
+}
+
+@keyframes down-to-up-p {
+    from {
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: scaleX(20px);
+    }
+}
+
+.launch-count {
+    height: 40vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.launch-count-heading {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 25px;
+}
+
+.launch-count-heading>span {
+    font-size: 7rem
+}
+
+.launch-count-heading>P {
+    font-size: larger;
+}
+
+.falcon-intro-text>span {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 45px;
+}
+
+.falcon-intro {
+    position: relative;
+    background: url('../src/WebsiteFHFairings_Render_Desktop.webp');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+
+.falcon-intro-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 45vw;
+}
+
+
+.falcon-intro .falcon-img img {
+    /* border: 2px solid red; */
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 120px;
+}
+
+.vedio-container {
+    /* this is  */
+    background-color: black;
+    border: 2px solid red;
+    height: 100vh;
+    width: 100%;
+    background: url('../pexels-kampus-production-8818531.mp4') muted loop autoplay;
+
+}
+
+.image-with-text {
+    /* border: 2px solid purple; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.pic video {
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 40vw;
+    margin: 10px 40px;
+
+}
+
+.text {
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 80vh;
+    color: whitesmoke;
+}
+
+.text p {
+    font-family: D-DIN-Regular;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.text h2 {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 3rem;
+    line-break: auto;
+
+}
+
+.marlin {
+    background: url('../src/Merlin.webp');
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.marlin-info {
+    /* border: 2px solid rebeccapurple; */
+    position: relative;
+    margin: 0px 10px;
+    color: whitesmoke;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.head-1 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.head-2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.choice {
+    margin-top: 4rem;
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+
+.marlin-info p {
+    margin: 10px 0px;
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+
+.marlin-info h4 {
+    position: absolute;
+    top: 95px;
+    left: 10px;
+    /* padding: 10px; */
+    font-size: 1rem;
+    font-weight: initial;
+}
+
+.marlin-info h5 {
+    padding: 10px 0px;
+}
+
+.marlin-info h2 {
+    /* margin-top: 206px; */
+
+    font-size: 4rem;
+}
+
+
+
+.marlin>.marlin-img img {
+    align-self: center;
+    height: 55vh;
+    width: 55%;
+}
+
+.detail {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+
+}
+
+.image-slider {
+    border: 2PX SOLID RED;
+    color: whitesmoke;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.information {
+    /* border: 2px solid   red; */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.hr-div {
+    border-right: 2px solid grey;
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top: 10%;
+}
+
+.cn {
+    /* border: 2px solid red ; */
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px auto;
+
+}
+
+.cn>p {
+    color: grey;
+
+}
+
+.cn>a {
+    /* border: 1px solid rebeccapurple; */
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.cn>a:hover {
+    color: rgb(192, 180, 180);
+}
+
+.btn-div {
+    /* border: 2PX SOLID red; */
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+#footer {
+    background: black;
+}
+
+#footer>span>a {
+    /* z-index: ; */
+    color: white;
+    transition: all 1s;
+}
+
+#footer>span>a:hover {
+    color: rgb(182, 182, 182);
+}

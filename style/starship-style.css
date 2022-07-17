@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: D-DIN-Regular, Arial, Verdana, sans-serif; */
+}
+
+
+#main-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/starship-bg.jpg');
+    background-size: 100% 100%;
+
+}
+
+.top-left-content h2 {
+    font-size: 1rem;
+    margin-bottom: 15PX;
+}
+
+.top-left-content H3 {
+    margin-bottom: 20px;
+}
+
+.top-left-content>.btn {
+    width: 200px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0PX;
+}
+
+.txt-info-only {
+    /* border: 2px solid red ; */
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: ; */
+}
+
+.left-inf {
+    height: 100vh;
+    width: 50%;
+    /* border: 2px solid peru ; */
+
+}
+
+.right-inf {
+    width: 50%;
+    height: 100vh;
+    /* border: 2px solid peru ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    /* border: 1px solid grey; */
+    margin: 20px 20px;
+   line-height: 26px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: --var(--font-D-DAN);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.right-inf {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#starship-overview {
+    background: url('../src/WebsiteStarshipStack_Render_Desktop.webp');
+    background-size: 100% 100%;
+    background-color: black;
+    height: 100vh;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+/* .right-overview{
+    border:2px solid red;
+} */
+.left-overview {
+    position: absolute;
+    font: var(--font-D-DAN);
+    /* font: 16px/26px D-DIN-Regular, Arial, Verdana, sans-serif; */
+    /* position: absolute  ; */
+    /* height: 50vh; */
+    width: 40%;
+    left: 10px;
+    /* border: 2px solid red; */
+    animation: slide-from-right 1s ease-in;
+
+}
+@keyframes slide-from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    25% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+
+}
+
+.right-overview img {
+    height: 90vh;
+}
+
+.left-overview>h2 {
+    margin: 60px 0px;
+
+}
+
+.left-overview-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 10px;
+    border-bottom: 1px solid grey;
+}
+
+#starship-vedio-cnt {
+    border: 2px solid white;
+    height: 100vh;
+    background-color: black;
+}
+
+.starship-s{
+    position: relative;
+    height: 100vh;
+    background: url('../src/CAPABILITIES__SATELLITE.gif');
+    background-size: 100% 100%;
+}
+
+.starship-s h4{
+    font-weight: 100;
+    margin: 10px 0;
+    font-family: --var(--font-D-DAN);
+}
+
+.starship-s h3{
+    margin: 10px 0;
+}
+
+.starship-content p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.starship-content{
+    position: absolute;
+    width: 45vw;
+    top: 25vh;
+    left: 10px;
+    /* border: 2px solid red; */
+}
+#mars-landing {
+
+    /* border: 2px solid red; */
+    height: 110vh;
+    background-color: black;
+    background: url('/images/mars_landing.webp');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#mars-landing>.content {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    margin: 10% 10px;
+
+}
+
+.content>h3 {
+    margin: 15px 0px;
+}
+
+.content>p {
+    margin: 30px 0px;
+    line-height: 1.5rem;
+}
+
+.content>.btn {
+    margin: 0px;
+}
+
+
+
+.information {
+    /* border: 2px solid   red; */
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hr-div {
+    border-right: 2px solid grey;
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top: 10%;
+}
+
+.cn {
+    /* border: 2px solid red ; */
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px auto;
+
+}
+
+.cn>p {
+    color: grey;
+
+}
+
+.cn>a {
+    /* border: 1px solid rebeccapurple; */
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.cn>a:hover {
+    color: rgb(192, 180, 180);
+}
+
+.btn-div {
+    /* border: 2PX SOLID red; */
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+#footer{
+    background: black;
+}
+#footer>span>a{
+    /* z-index: ; */
+    color: white;
+    transition: all 1s;
+}
+
+#footer>span>a:hover{
+    color: rgb(182, 182, 182);
+}
+

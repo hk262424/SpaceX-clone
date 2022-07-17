@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\style\style.css">
+    <link rel="stylesheet" href="..\style\falcon-9-style.css">
+    <link rel="stylesheet" href="../style/variables.css">
+
+</head>
+
+<body>
+    <!-- ###############################################
+        this code is for Navigation Bar
+############################################### -->
+    <div id="main-container">
+        <header id="top-navigation-menu">
+            <div id="logo">
+                <a href="../Templates/index.html">
+                    <img src="../images/logo.png" alt="SpaceX">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">FALCON 9</a> </li>
+                <li><a href="/Templates/FALCON-HEAVY.html">FALCON HEAVY</a> </li>
+                <li><a href="/Templates/Dragon.html">DRAGON</a> </li>
+                <li><a href="/Templates/Starship.html">STARSHIP</a> </li>
+                <li><a href="/Templates/Human-spacelight.html">HUMAN SPACELIGHT</a> </li>
+                <li><a href="/Templates/Ride-share.html">RIDE SHARE</a> </li>
+            </ul>
+
+            <Div class="right-nav">
+                <ul>
+                    <li><a href="">SHOP</a></li>
+                </ul>
+            </Div>
+        </header>
+
+
+        <div id="mid-content">
+            <h1> FALCON 9</h1>
+            <span>FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT</span>
+        </div>
+    </div>
+
+    <!-- ###############################################
+        this is our LAUNCH COUNT DIV
+############################################### -->
+    <div class="launch-count">
+        <!-- total launch -->
+        <div class="launch-count-div">
+            <!-- <span>140</span>
+             -->
+            <!-- <div>140</div> -->
+            <h2 class="laucnh-count-heading counter-numbers" data-number="150">0+</h2>
+            <p style="text-align: center;">TOTAL LAUNCH</p>
+        </div>
+        <!-- total landing  -->
+        <div class="launch-count-div">
+            <h2 class="laucnh-count-heading counter-numbers" data-number="135"">0+</h2>
+            <p style=" text-align: center;">TOTAL LANDING </p>
+
+        </div>
+        <!-- Reflown rockets  -->
+        <div class="launch-count-div">
+            <h2 class="laucnh-count-heading counter-numbers" data-number="1"">0+</h2>
+            <p style=" text-align: center;">REFLOWN ROCKETS </p>
+        </div>
+    </div>
+
+    <!-- ###############################################
+        this is overlay section falcon- 9
+############################################### -->
+
+    <div class="overlay-section">
+      
+<div class="left-overlay">
+    <p>Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access.</p>
+</div>
+    </div>
+
+
+ 
+
+    <!-- ###############################################
+        this is our SLIDE BAR  DIV
+############################################### -->
+
+    <div class="slide-bar">
+        <!-- <video src=""></video> -->
+        <!-- this is slide bar -->
+        <div class="left-content-heading">
+            <h3>FALCON 9</h3>
+            <H4>OVERVIEW</H4>
+        </div>
+
+
+        <div class="content">
+            <div class="content-data">
+                <h4>HEIGHT</h4>
+                <H4>72M</H4>
+            </div>
+            <div class="content-data">
+                <h4>DIAMETER</h4>
+                <H4>3.7m</H4>
+            </div>
+            <div class="content-data">
+                <h4>MASS</h4>
+                <H4>549.054kg</H4>
+            </div>
+            <div class="content-data">
+                <h4>PLAYLOAD TO LEO</h4>
+                <H4>22,800kg</H4>
+            </div>
+            <div class="content-data">
+                <h4>PLAYLOAD TO GTO</h4>
+                <H4>8,300kg</H4>
+            </div>
+            <div class="content-data">
+                <h4>PLAYLOAD TO MARS</h4>
+                <H4>4,020kg</H4>
+            </div>
+
+        </div>
+
+    </div>
+
+       <!-- video overview  -->
+       <iframe width="100%" height="610" src="https://www.youtube.com/embed/Z4TXCZG_NEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+  
+
+    <!-- ###############################################
+        this code is for information
+############################################### -->
+    <div class="information">
+
+        <div class="hr-div"> </div>
+        <div class="cn">
+            <P>For information about our launch services, contact</P><a href="#">sales@spaceX.com</a>
+        </div>
+
+        <div class="btn-div">
+            <a href="" class="btn">DOWNLOAD USER'S GUIDE</a>
+            <a href="" class="btn">CAPABILITIES AND SERVICES</a>
+        </div>
+    </div>
+
+
+    <!-- ###############################################
+            This code is for footer
+############################################### -->
+    <footer id="footer">
+        <span><a href="#"> SpaceX @2022 </a></span>
+        <ul>
+            <li><a href="https://www.TWITTER.com/">TWITTER</a></li>
+            <li><a href="https://www.facebook.com/">FACEBOOK</a></li>
+            <li><a href="https://www.INSTAGRAM.com/">INSTAGRAM</a></li>
+            <li><a href="https://www.flicker.com/">FLICKER</a></li>
+            <li><a href="https://www.LINKEDIN.com/">LINKEDIN</a></li>
+            <li><a href="https://www.git.com/">PRIVACY POLICY</a></li>
+        </ul>
+    </footer>
+    <script src="../javascript/app.js"></script>
+    <script>
+
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += "active";
+        }
+    </script>
+
+</body>
+
+</html>

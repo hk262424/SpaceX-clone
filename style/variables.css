@@ -1,0 +1,6 @@
+:root {
+    --font-D-DAN:16px/26px D-DIN-Regular, Arial, Verdana, sans-serif;
+    --font-fallback: D-DIN-Regular,Arial,Verdana,sans-serif;
+    --font-fallback2: 'sans-serif';
+    --font-fallback3: 'Montserrat';
+}
